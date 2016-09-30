@@ -1,4 +1,5 @@
 var x = 2;
 function square(){
-  title.innerHTML =   Math.pow(x,2);
+  var power = document.getElementById('power');
+  power.innerHTML = Math.pow(x,2);
 }
